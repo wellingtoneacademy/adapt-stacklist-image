@@ -1,14 +1,14 @@
 {
   "name": "adapt-stacklistimage",
-  "description": "Items fly in one at a time, alternating from left to right, when the learner clicks a button. Demo available.",
-  "version": "4.0.0",
+  "description": "Items fly in one at a time, with an image, alternating from left to right, when the learner clicks a button. Demo available.",
+  "version": "1.0.0",
   "framework": ">=4",
-  "displayName": "Stack List",
+  "displayName": "Stack List with Image",
   "component": "stacklistimage",
   "main": "/js/adapt-stacklistimage.js",
-  "homepage": "https://github.com/danielstorey/adapt-stacklistimage",
-  "repository": "git://github.com/danielstorey/adapt-stacklistimage.git",
-  "issues": "https://github.com/danielstorey/adapt-stacklistimage/issues",
+  "homepage": "https://github.com/wellingtoneacademy/adapt-stacklistimage",
+  "repository": "git://github.com/wellingtoneacademy/adapt-stacklistimage.git",
+  "issues": "https://github.com/wellingtoneacademy/adapt-stacklistimage/issues",
   "keywords": [
     "adapt-plugin",
     "adapt-component"

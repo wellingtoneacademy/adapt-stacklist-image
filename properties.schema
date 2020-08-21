@@ -56,6 +56,21 @@
             "help": "This is the optional item body text",
             "translatable": true
           },
+             "_item_graphic": {
+                "type": "object",
+                "required": false,
+                "title": "Item Image",
+                "properties":{
+                  "src": {
+                    "type": "string",
+                    "required": false,
+                    "default": "",
+                    "inputType": "Asset:image",
+                    "validators": [],
+                    "help": "Optional image which will be rendered on the item"
+                  }
+                }
+              },
           "next": {
             "type": "string",
             "required": false,
