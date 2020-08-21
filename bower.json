@@ -1,7 +1,7 @@
 {
   "name": "adapt-stacklistimage",
   "description": "Items fly in one at a time, with an image, alternating from left to right, when the learner clicks a button. Demo available.",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "framework": ">=4",
   "displayName": "Stack List with Image",
   "component": "stacklistimage",

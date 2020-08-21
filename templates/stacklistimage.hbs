@@ -10,9 +10,8 @@
                             {{{a11y_text this}}}
                         {{else}}
                             {{{a11y_text body}}}
-                        {{#if _item_graphic.src}}
-                        <img src="{{_front_graphic.src}}" class="stacklistimage-item-image">
-                        {{/if}}
+                         {{#if _graphic}}<img class="list-image" src="{{_graphic.image}}">{{/if}}
+                        
                         {{/if}}
                     </div>
                 {{/each}}

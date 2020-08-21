@@ -56,12 +56,12 @@
             "help": "This is the optional item body text",
             "translatable": true
           },
-             "_item_graphic": {
+             "_graphic": {
                 "type": "object",
                 "required": false,
                 "title": "Item Image",
                 "properties":{
-                  "src": {
+                  "image": {
                     "type": "string",
                     "required": false,
                     "default": "",
