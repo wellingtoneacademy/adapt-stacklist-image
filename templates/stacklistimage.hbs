@@ -1,0 +1,25 @@
+<div class="stacklistimage-inner component-inner">
+    {{> component this}}
+
+    <div class="stacklistimage-widget component-widget">
+        <div class="stacklistimage-items">
+            <div class="stacklistimage-items-inner">
+                {{#each _items}}
+                    <div class="stacklistimage-item">
+                        {{#if this.length}}
+                            {{{a11y_text this}}}
+                        {{else}}
+                            {{{a11y_text body}}}
+                        {{#if _item_graphic.src}}
+                        <img src="{{_front_graphic.src}}" class="stacklistimage-item-image">
+                        {{/if}}
+                        {{/if}}
+                    </div>
+                {{/each}}
+                <div class="stacklistimage-button">
+                    <button class="stacklistimage-next" aria-label="{{{_button.startText}}}, {{{_button.ariaLabel}}}">{{{_button.startText}}}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

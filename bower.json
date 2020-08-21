@@ -1,0 +1,17 @@
+{
+  "name": "adapt-stacklist-image",
+  "description": "Items fly in one at a time, alternating from left to right, when the learner clicks a button. Original plugin by danielstorey. Extending to show images within the stacklist item.",
+  "version": "4.0.0",
+  "framework": ">=4",
+  "displayName": "Stack List with Image",
+  "component": "stacklistimage",
+  "main": "/js/adapt-stacklist-image.js",
+  "homepage": "https://github.com/wellingtoneacademy/adapt-stacklist-image",
+  "repository": "git://github.com/wellingtoneacademy/adapt-stacklist-image.git",
+  "issues": "https://github.com/wellingtoneacademy/adapt-stacklist-image/issues",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPLv3",
+}
