@@ -7,7 +7,7 @@
     "ariaRegion": {
       "type": "string",
       "required": true,
-      "default": "This stacklist component presents a list of items. Select the button to access each item in turn.",
+      "default": "This stacklistimage component presents a list of items. Select the button to access each item in turn.",
       "inputType": "Text",
       "validators": [],
       "translatable": true
@@ -15,7 +15,7 @@
       "ariaButtonLabel": {
       "type": "string",
       "required": true,
-      "default": "Select this button to access the next item in the stacklist.",
+      "default": "Select this button to access the next item in the stacklistimage.",
       "inputType": "Text",
       "validators": [],
       "translatable": true
@@ -56,21 +56,6 @@
             "help": "This is the optional item body text",
             "translatable": true
           },
-          "_item_graphic": {
-                "type": "object",
-                "required": false,
-                "title": "Item Image",
-                "properties":{
-                  "src": {
-                    "type": "string",
-                    "required": false,
-                    "default": "",
-                    "inputType": "Asset:image",
-                    "validators": [],
-                    "help": "Optional image which will be rendered under the text"
-                  }
-                }
-              },
           "next": {
             "type": "string",
             "required": false,

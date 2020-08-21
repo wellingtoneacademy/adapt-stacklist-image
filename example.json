@@ -1,6 +1,6 @@
 {
     "_type": "component",
-    "_component": "stacklist",
+    "_component": "stacklistimage",
     "_classes": "",
     "_layout": "full",
     "title": "Stacklist",
